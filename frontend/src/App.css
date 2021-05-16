@@ -1,0 +1,498 @@
+
+ 
+/* Register */
+.multistep-container .active-button
+{
+	display: table;
+	margin: auto;
+	padding-left: 0;
+	overflow:hidden;
+	margin-bottom: 25px;
+}
+.multistep-container .active-button li
+{
+	display: inline-block;
+	width: 180px;
+}
+.multistep-container .active-button li .round-btn
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ccc;
+	display: block;
+	color: #000;
+	text-align: center;
+	font-family: 'poppins';
+	font-weight: 500;
+	line-height: 30px;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.multistep-container .active-button li.active .round-btn
+{
+	background-color: #F8BD7A;
+	color: var(--white);
+}
+
+.multistep-container .active-button li:not(:first-child) .round-btn:before
+{
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 3px;
+	background-color: #ccc;
+	left: -30px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.multistep-container .active-button li.active:not(:first-child) .round-btn:before
+{
+	background-color: #F8BD7A;
+}
+
+
+.multistep-container .mutistep-form-area .form-box h1
+{
+	font-family: 'montserrat';
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.multistep-container .mutistep-form-area .form-box label
+{
+	font-family: 'roboto';
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.multistep-container .mutistep-form-area .form-box:nth-child(2),
+.multistep-container .mutistep-form-area .form-box:nth-child(3)
+{
+	display: none;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .next,
+.multistep-container .mutistep-form-area .form-box .button-row .previous,
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: #FFDE59;
+	border:0;
+	box-shadow: none;
+	padding: 7px 30px;
+	min-width: 100px;
+	border-radius: 20px;
+	color: var(--white);
+	font-family: 'roboto';
+	font-weight: 500;
+  margin-top: 10%;
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row .submit
+{
+	background-color: var(--purple);
+}
+
+.multistep-container .mutistep-form-area .form-box .button-row
+{
+	display: table;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.form-control{
+	border-radius: 10px;
+	height: 38px;
+	width: 95%; 
+	border : solid black 1px;
+}
+
+
+#technologies_field{
+	height : 60px;
+}
+
+#languages_field{
+	height : 60px;
+}
+
+.multistep-container{
+	background-color:#322A7D;
+	width : 100%;
+	height : 1400px;
+}
+
+.checkbox{
+	margin-right : 30px;
+}
+
+
+
+.form-box{
+	background-color: white;
+	width : 35%;
+	margin :  auto;
+	padding : 30px;
+	position : relative;
+	top : 150px;
+	border-radius : 10px;
+}
+ 
+.password-icon{
+	position: relative;
+	bottom: 32px;
+	left: 358px;
+}
+
+
+.side-box{
+ width : 10%;
+ border : solid black 1px;
+ display: inline-block;
+ padding: 7px 0;
+ border-radius: 10px;
+ text-align: center;
+ margin-right: 3%;
+}
+
+.small-input{
+   display : inline-block;
+   width : 82%;
+}
+/* Log in */
+
+
+.red{
+	background-color:#322A7D;
+	height : 1200px;
+}
+
+.login-box{
+	width : 30%;
+	background-color:white;
+	margin : 200px auto ;
+	padding : 20px;
+	border-radius : 10px;
+}
+
+
+.login-btn{
+	width : 100%;
+	border-radius : 10px;
+	background-color:#FFDE59;
+}
+
+.update-password{
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.logo{
+	
+	height : 70px;
+	border-radius: 5px;
+}
+
+.lds-dual-ring {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+  }
+  .lds-dual-ring:after {
+	content: " ";
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	border-color: #fff transparent #fff transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+
+
+
+/* Profile css */
+/*//////////////////////Profile Page Start/////////////////////////*/
+
+.profile-body {
+	color: #787878;
+	margin: 1%;
+  }
+  
+  /*///////////Left side of profile*/
+  
+  .profile-left {
+	background-color: #f5f5f5;
+	border-radius: 1%;
+  }
+  
+  .profile-left-row {
+	margin: 20% 1%;
+  }
+  
+  .profile-left-row:last-child {
+	margin-bottom: 5%;
+  }
+  .profile-left-col {
+	margin: 2% 0;
+  }
+  .profile-image-col {
+	padding: 0;
+	max-width: 200px;
+	max-height: 200px;
+  }
+  
+  .profile-pic {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+  }
+  
+  .custom-profile-progress {
+	background-color: #fff;
+  }
+  
+  /*//////////Right side of profile*/
+  
+  .profile-right-body {
+	margin: 1% 2%;
+  }
+  .profile-tab-content {
+	margin-top: 2%;
+  }
+  
+  /*/////Personal Tab*/
+  .profile-personal-form-sections {
+	margin-bottom: 3%;
+  }
+  
+  .profile-personal-form-inputs {
+	border: 2px solid;
+	border-color: #dcdcdc;
+  }
+  
+  /*/////Assets Tab */
+  
+  .profile-asset-table {
+	width: 100%;
+  }
+  
+  .profile-asset-table-headings {
+	background-color: #d9f1d9;
+	color: #39754d;
+	padding: 0.5%;
+  }
+  
+  .profile-asset-table-name {
+	display: inline-block;
+	font-weight: 700;
+  }
+  
+  .profile-asset-button {
+	float: right;
+	background-color: #008184;
+	color: white;
+	border: 0;
+	height: 33px;
+	border-radius: 5px;
+  }
+  
+  .profile-asset-table-top {
+	border-bottom: solid 3px;
+	border-color: #eeeeee;
+  }
+  
+  .profile-asset-devices,
+  .profile-asset-browsers {
+	border: 3px solid;
+	border-color: #dde4dc;
+  }
+  
+  .profile-asset-devices {
+	margin-bottom: 2%;
+  }
+  
+  .profile-asset-scrollIt {
+	overflow: scroll;
+	height: 200px;
+  }
+  
+  /*/////Skills Tab */
+  .profile-asset-body {
+	padding: 1.5%;
+	padding-top: 0;
+  }
+  
+  .profile-skill-heading {
+	margin-top: 2%;
+	margin-bottom: 1%;
+  }
+  
+  .profile-skill-section {
+	background-color: #f5f5f5;
+	border: 3px solid;
+	border-color: #e8e8e8;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+  }
+  
+  .profile-skill-checkbox-main {
+	margin-bottom: 3%;
+  }
+  
+  .profile-skill-checkbox-input {
+	background-color: #d6dbde;
+  }
+  
+  /*/////Work History tab*/
+  
+  .profile-work-heading-body {
+	border: 3px solid;
+	border-color: #d9e9d9;
+	background-color: #d9f1d9;
+	color: #39754d;
+	padding: 0.5%;
+  }
+  
+  .profile-work-content {
+	padding: 1%;
+	border: 3px solid;
+	border-color: #d9e9d9;
+  }
+  
+  .profile-work-heading-h {
+	display: inline;
+  }
+  
+  .profile-work-heading-p1,
+  .profile-work-heading-p2 {
+	float: right;
+	margin-right: 5%;
+  }
+  
+  .profile-work-pre-heading {
+	margin-bottom: 0;
+  }
+  
+  .profile-work-contest-table {
+	width: 100%;
+  }
+  
+  .profile-work-first-data1 {
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 5%;
+  }
+  
+  .profile-work-first-data2 {
+	padding: 0.5%;
+  }
+  
+  .profile-work-single-row1 {
+	border-top: solid 3px;
+	border-color: #e2e2e2;
+  }
+  
+  .profile-work-single-row2 {
+	border-top: solid 3px;
+	border-color: #e2e2e2;
+  }
+  
+  .profile-work-single-row1:nth-child(even) {
+	background-color: #f9f9f9;
+  }
+  
+  .profile-work-single-row2:nth-child(even) {
+	background-color: #f9f9f9;
+  }
+
+  .assets-input{
+     display: block;
+	 width: 100%;
+	 margin-bottom: 10px;
+  }
+
+.profile-btn{
+   margin-top:20px;
+}
+
+.language{
+	display: inline-block;
+	margin-right: 10px;
+}
+  
+  /*//////////////////////Profile Page end/////////////////////////*/
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
